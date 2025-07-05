@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+    <!--============================================================-->
+    <!--TheMeanOnes Easy Sorter v2 - Quick Controls & How-To-->
+    <!--============================================================-->
+    <!--SHIFT + F →  Sort items into nearby containers (excludes toolbar and locked slots)."); into nearby containers (excludes toolbar and locked slots).-->
+    <!--SHIFT + R  →  Delete junk items listed in the Trash List.-->
+    <!--SHIFT + K  →  Refill stackable items from containers (includes locked slots).-->
+    <!---->
+    <!--New in v2:-->
+    <!-- • Access and send to locked containers.-->
+    <!-- • Party members can share and interact with containers.-->
+    <!---->
+    <!--How this Mod works:-->
+    <!--When in a Party with other players, you are able to transfer to each other's boxes,-->
+    <!--and transfer out using SHIFT + P. You cannot unlock the player's crate.-->
+    <!--When not in parties, you can transfer to other people's crates but are blocked,-->
+    <!--and the attempt is logged in the console.-->
+    <!--============================================================-->
+
+<!--Distance in blocks to search for containers for sorting (default: 30)-->
+<Distance>30</Distance>
+<!--Key to trigger trash purge (e.g. R)-->
+<TrashKey>R</TrashKey>
+<!--Trash List: Items listed here will be auto-deleted when Shift+TrashKey is pressed-->
+<TrashList>
+<Item>resourceSnowBall</Item>
+<Item>resourceScrapPolymers</Item>
+<Item>resourcePaper</Item>
+<Item>resourceCloth</Item>
+</TrashList>
+</Config>
